@@ -6,18 +6,19 @@
 
 Console.WriteLine("Введите любое пятизначное число");
 int num = int.Parse(Console.ReadLine()!);
+
 string str = num.ToString();
 
-int num0= str[0];
-int num4= str[4];
-int num1= str[1];
-int num3= str[3];
+int num0 = str[0];
+int num4 = str[4];
+int num1 = str[1];
+int num3 = str[3];
 
-if (num0==num4 && num1==num3) Console.WriteLine("ПАЛИНДРОМ");
+if (num0 == num4 && num1 == num3) Console.WriteLine("ПАЛИНДРОМ");
 
 else
     Console.WriteLine("Число не является палиндромом");
-    
+
 
 
 
