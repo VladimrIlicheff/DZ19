@@ -13,7 +13,7 @@ string str = num.ToString();
 
 if(str[0] == str[4]) ;
 else if(str[1] == str[3]) ;
-Console.WriteLine("Число является ПАЛИНДРОМОМ"); 
+Console.WriteLine("Число является ПАЛИНДРОМОМ");
 else
     Console.WriteLine("Число не является палиндромом");
 
