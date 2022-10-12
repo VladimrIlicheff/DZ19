@@ -11,8 +11,8 @@ else if (num > 100000) ;
 Console.WriteLine("Число не является пятизначным");
 string str = num.ToString();
 
-if(str[1] == str[5]) ;
-else if(str[2] == str[4]) ;
+if(str[0] == str[4]) ;
+else if(str[1] == str[3]) ;
 Console.WriteLine("Число является ПАЛИНДРОМОМ"); 
 else
     Console.WriteLine("Число не является палиндромом");
