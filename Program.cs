@@ -6,14 +6,20 @@
 
 Console.WriteLine("Введите любое пятизначное число");
 int num = int.Parse(Console.ReadLine()!);
-if (num < 10000) ;
-else if (num > 100000) ;
-Console.WriteLine("Число не является пятизначным");
 string str = num.ToString();
 
-if(str[0] == str[4]) ;
-else if(str[1] == str[3]) ;
-Console.WriteLine("Число является ПАЛИНДРОМОМ");
+int num0= str[0];
+int num4= str[4];
+int num1= str[1];
+int num3= str[3];
+
+if (num0==num4 && num1==num3) Console.WriteLine("ПАЛИНДРОМ");
+ 
 else
     Console.WriteLine("Число не является палиндромом");
+    
+
+
+
+
 
